@@ -1,5 +1,5 @@
 
-const Post = require('../models/Post.js');
+const Post = require('../models/post.js');
 const DataSiswa = require('../models/DataSiswa.js');
 
 exports.home = (req, res) => {
