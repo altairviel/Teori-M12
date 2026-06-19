@@ -1,0 +1,13 @@
+
+<%- include('partials/header') %>
+<h1><%= title %></h1>
+<ul>
+  <% contacts.forEach(contact => { %>
+    <li>
+      <a href=""> <%= contact.nama %> <%= contact.nim %></a>
+    </li>
+  <% }) %>
+</ul>
+<%- include('partials/footer') %>
+
+console.log(contacts);
